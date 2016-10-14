@@ -1,0 +1,64 @@
+.basket-icon{
+    position: absolute;
+    top:20px;
+    right:20px;
+    margin: 0;
+    
+    text-align: left;
+    cursor: pointer;
+/*    padding: 15px;*/
+    
+}
+
+#basket-holder{
+    position: absolute;
+    top:0px;
+    right:0px;
+    min-width:280px;
+    background-color: #fff;
+    text-align: left;
+    
+    padding: 15px;
+    padding-top:35px;
+    opacity: 0;
+    visibility: hidden;
+    border: 1px solid black;
+}
+ul {
+    list-style:none;
+    padding-left:0;
+}
+.item-name{
+    
+    font-size: 16px;
+    
+    display: inline-block;
+    margin: 0;
+}
+.price-point{
+    display: inline-block;
+    list-style: none;
+    float: right;
+    margin-right: 20px;
+}
+
+.total-amount{
+    font-size: 20px;
+    color: #d52c33;
+}
+
+.collapsed{
+    position: relative;
+/*    opacity: 0;*/
+/*    background-color: #fff;*/
+    
+}
+
+
+.close-btn{
+    position: absolute;
+    margin: 0 auto;
+    right: 5px;
+    top:5px;
+    
+}

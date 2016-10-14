@@ -1,0 +1,14 @@
+.panel{
+    margin-left: 5px;
+    margin-top: 50px;
+    list-style: none;
+
+    color: #000;
+    font-size: 20px;
+    
+}
+
+
+ .panel-footer{
+        background-color: orange;
+}
